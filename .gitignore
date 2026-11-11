@@ -1,0 +1,55 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and tool caches
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+config.toml
+config.local.toml
+.env
+.env.*
+!.env.example
+secrets/
+.secrets/
+*.pem
+*.key
+
+# Local Docker Compose overrides
+docker-compose.override.yml
+docker-compose.override.yaml
+compose.override.yml
+compose.override.yaml
+
+# Runtime data and logs
+*.log
+*.db
+*.sqlite3
+cache/
+logs/
+media/
+output/
+tmp/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Synology-generated directories
+@eaDir/
+\#recycle/
